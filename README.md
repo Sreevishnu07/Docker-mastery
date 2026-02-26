@@ -1,6 +1,6 @@
 # Mastering the Intricacies of Docker
 
-> A structured, hands-on journey into Docker..focused on internal mechanics, operational clarity, and production-grade workflows..
+A structured, hands-on journey into Docker — focused on internal mechanics, operational clarity, and production-grade workflows.
 
 ---
 
@@ -17,164 +17,141 @@ The goal is to understand:
 
 This project follows a disciplined learning loop:
 
-**Concept → Practical Implementation → Internal Breakdown → Documentation**
+> **Concept → Practical Implementation → Internal Breakdown → Documentation**
 
 Every topic is studied, executed, analyzed, and recorded with intent.
 
 ---
 
-## Repository Structure
+# Repository Learning Modules
 
-### `main`
-Stable documentation, structured insights, and consolidated understanding.
+## Foundations
 
-### `basics`
-Foundational Docker concepts explored through focused experimentation.
-
-Core themes:
-- Running and managing containers  
-- Image fundamentals and layering  
-- Port publishing (`-p`)  
-- Bind mounts  
-- Executing commands inside running containers  
-
-This branch builds operational clarity around container lifecycle, host-container interaction, and basic exposure of services.
+-  [Basics of Docker](./basicsdocker.pdf)
+-  [Continuation on My Progress on Docker](./Continuation%20on%20my%20progress%20on%20docker.pdf)
+-  [Docker Intermediates](./Docker%20intermediates.pdf)
 
 ---
 
-### `intermediates-of-docker-mastery`
-Applied and scenario-driven Docker workflows integrating networking, storage, registries, and image management.
+## Advanced Practice & Deep Exploration
 
-This branch focuses on realistic multi-component setups and deployment-oriented thinking.
-
----
-
-## Intermediates: Activities & Experiments
-
-### 1. Dockerizing MySQL with Custom Image and Port Publishing
-- Built a custom MySQL container with environment configuration.
-- Published container port to host and validated connectivity.
-- Explored container isolation vs host exposure boundaries.
+-  [Docker Practice and Advanced Work – Part 1](./Docker%20Practice%20and%20Advanced%20work-part%201.pdf)
+-  [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
+-  [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
 
 ---
 
-### 2. Container-to-Container Communication Using Custom Dockerfiles and Bridge Network
-- Created multiple containers with custom images.
-- Connected them via a user-defined bridge network.
-- Verified internal DNS-based name resolution and isolated communication.
+##  Reflection & Learning Evolution
+
+-  [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
+
+This document highlights:
+- Conceptual misunderstandings corrected
+- Internal behavior clarifications
+- Architectural refinements in understanding
 
 ---
 
-### 3. Implementing Persistent Storage in Docker Using Volumes (MySQL Example)
-- Attached named volumes to database container.
-- Demonstrated data persistence across container removal.
-- Observed separation between image layers and persistent storage.
+#  Core Technical Domains Covered
 
----
-
-### 4. Demonstrating Bind Mounts in Docker and Comparing with Named Volumes
-- Mounted host directories into containers.
-- Compared lifecycle, control, and risks of bind mounts vs named volumes.
-- Analyzed how mount masking overrides image filesystem content.
-
----
-
-### 5. DNS Resolution Inside User-Defined Bridge
-- Verified automatic service discovery via container names.
-- Explored how Docker’s embedded DNS works.
-- Compared default bridge vs user-defined bridge behavior.
-
----
-
-### 6. Building, Tagging, and Publishing a Docker Image to GitHub Container Registry with Token-Based Authentication
-- Built versioned images using semantic tagging.
-- Authenticated using GitHub Personal Access Tokens.
-- Pushed and pulled images from GHCR, enforcing access control.
-- Understood registry boundaries and tag mutability.
-
----
-
-### 7. FINAL ARMAGEDDON: Deploying a Versioned Web App with Persistent Storage and Publishing to GHCR (Content Registry)
-- Wrote production-style Dockerfile using `ENV`, `VOLUME`, `EXPOSE`, `CMD`.
-- Applied semantic versioning (`1.0.0`, `latest`) and analyzed tag behavior.
-- Integrated networking, port mapping, volumes, and registry workflows in a single cohesive deployment.
-- Demonstrated image immutability vs volume persistence across rebuilds and redeployments.
-
----
-
-## Core Technical Domains Covered
-
-### Image Engineering
+##  Image Engineering
 - Layer architecture
 - Copy-on-write mechanism
-- Build cache invalidation strategy
-- Tag mutability and digest immutability
-- Multi-stage build principles
+- Build cache invalidation
+- Tag mutability vs digest immutability
+- Multi-stage builds
 
-### Networking
-- Bridge networks (default and user-defined)
-- Container DNS resolution
-- Port publishing mechanics
-- Host-to-container and container-to-container flow
+##  Networking
+- Default vs user-defined bridge networks
+- Docker embedded DNS
+- Port publishing internals
+- Host ↔ Container communication
+- Container ↔ Container communication
 
-### Storage
+##  Storage
 - Named volumes
 - Bind mounts
-- Persistent data lifecycle
 - Mount masking behavior
+- Persistent data lifecycle
 - Separation of image, container layer, and volume
 
-### Registry & Distribution
+##  Registry & Distribution
 - Docker Hub vs GHCR
 - Registry namespaces
 - Token-based authentication
-- Private image access control
-- Versioned deployment strategy
+- Versioned image publishing
+- Semantic versioning strategy
 
 ---
 
-## Tools & Environment
+#  Final Armageddon Deployment
 
-- Docker Engine  
-- Alpine and Ubuntu-based images  
-- MySQL containers  
-- Git & GitHub  
-- Windows + Git Bash workflow  
+A full production-style integration combining:
+
+- Custom Dockerfile
+- ENV configuration
+- VOLUME declaration
+- EXPOSE instruction
+- Semantic tagging (1.0.0, latest)
+- Publishing to GHCR
+- Persistent storage
+- Versioned deployment flow
+
+Demonstrates:
+- Image immutability
+- Volume persistence across rebuilds
+- Registry boundary control
+- Deployment reproducibility
 
 ---
 
-## Philosophy
+#  Tools & Environment
 
-This repository is not about memorizing,
+- Docker Engine
+- Alpine & Ubuntu images
+- MySQL container deployments
+- Git & GitHub
+- GitHub Container Registry (GHCR)
+- Windows + Git Bash workflow
+
+---
+
+#  Philosophy
+
+This repository is not about memorizing commands.
 
 It is about understanding:
+
 - What happens inside the kernel
 - How namespaces isolate processes
 - How overlay filesystems manage layers
 - How registries store image manifests
 - Why volumes outlive containers
-- How version tags control deployment stability
-
----
-
-## Long-Term Direction
-
-This foundation directly supports:
-
-- CI/CD automation  
-- Microservices architecture  
-- Image optimization  
-- Secure software supply chains  
-- Container orchestration (Kubernetes)  
-
----
-
-## Final Note
-
-This is not a collection of Docker commands.
-
-This is a structured mastery of containerization principles.
+- How version tags affect deployment stability
 
 Understanding Docker deeply is not about running containers.
 
 It is about understanding what truly happens when you do.
+
+---
+
+#  Long-Term Direction
+
+This foundation directly supports:
+
+- CI/CD automation
+- Microservices architecture
+- Image optimization
+- Secure software supply chains
+- Kubernetes orchestration
+
+---
+
+##  Maintained by
+**Sreevishnu07**
+
+A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
+
+**Sreevishnu07**
+
+A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
