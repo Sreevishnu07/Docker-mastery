@@ -151,7 +151,3 @@ This foundation directly supports:
 **Sreevishnu07**
 
 A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
-
-**Sreevishnu07**
-
-A disciplined journey toward mastering systems, infrastructure, and production-grade software engineering.
