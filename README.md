@@ -75,7 +75,7 @@ This unit focuses on:
 
 ## Docker Compose Fundamentals & Practice
 
-### - 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.md)
+### - 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.pdf)
 
 ---
 
