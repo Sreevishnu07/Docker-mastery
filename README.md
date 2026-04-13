@@ -214,9 +214,8 @@ CI/CD (Continuous Integration & Continuous Deployment) enables:
 
 ### Repository Learning Modules (Unit 4)
 
-- 4.1 [Complete CI/CD Mastery](./ci-cd-pipeline.pdf)  
-- 4.2 CI/CD Pipeline Implementation Tasks (End-to-End Execution)
-
+- 4.1 [Complete CI/CD Mastery](./Complete%20-CI-%20-CD-%20Mastery.pdf)
+- 4.2 [CI-CD Pipeline project](./CI%20-CD-%20pipeline.pdf)
 ---
 
 ### Core Technical Domains Covered (CI/CD)
