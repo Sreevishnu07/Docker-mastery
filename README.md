@@ -1,6 +1,6 @@
-# Mastering the Intricacies of Devops
+# Mastering the Intricacies of DevOps
 
-A structured, hands-on journey into Docker — focused on internal mechanics, operational clarity, and production-grade workflows.
+A structured, hands-on journey into Devops — focused on internal mechanics, operational clarity, and production-grade workflows.
 
 ---
 
