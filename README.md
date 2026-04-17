@@ -37,9 +37,13 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 **1.5** [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
 **1.6** [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
 
+### Docker Networking and Swarm Practicals
+
+**1.7** [Docker Networking + Swarm Practicals](./Docker%20Networking%2BSwarm%20practicals.pdf)
+
 ### Reflection & Learning Evolution
 
-**1.7** [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
+**1.8** [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
 
 ---
 
