@@ -27,19 +27,19 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 ### Foundations
 
-* 1.1 [Basics of Docker](./basicsdocker.pdf)
-* 1.2 [Continuation on My Progress on Docker](./Continuation%20on%20my%20progress%20on%20docker.pdf)
-* 1.3 [Docker Intermediates](./Docker%20intermediates.pdf)
+**1.1** [Basics of Docker](./basicsdocker.pdf)
+**1.2** [Continuation on My Progress on Docker](./Continuation%20on%20my%20progress%20on%20docker.pdf)
+**1.3** [Docker Intermediates](./Docker%20intermediates.pdf)
 
 ### Advanced Practice & Deep Exploration
 
-* 1.4 [Docker Practice and Advanced Work – Part 1](./Docker%20Practice%20and%20Advanced%20work-part%201.pdf)
-* 1.5 [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
-* 1.6 [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
+**1.4** [Docker Practice and Advanced Work – Part 1](./Docker%20Practice%20and%20Advanced%20work-part%201.pdf)
+**1.5** [Advanced Docker and Complete Practice – Part 2](./Advanced%20Docker%20and%20complete%20practice%20Part-2.pdf)
+**1.6** [Advanced Docker and Final Practice](./Advanced%20Docker%20and%20final%20practice.pdf)
 
 ### Reflection & Learning Evolution
 
-* 1.7 [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
+**1.7** [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
 
 ---
 
@@ -62,7 +62,7 @@ This unit focuses on:
 
 ### Repository Learning Modules (Unit 2)
 
-* 2.1 [Complete Docker Compose Practice](./completeDockerComposePractice.pdf)
+**2.1** [Complete Docker Compose Practice](./completeDockerComposePractice.pdf)
 
 ---
 
@@ -141,7 +141,7 @@ Apache Maven plays a key role in:
 
 ### Repository Learning Modules (Unit 3)
 
-* 3.1 [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
+**3.1** [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
 
 ---
 
@@ -226,8 +226,8 @@ CI/CD (Continuous Integration & Continuous Deployment) enables:
 
 ### Repository Learning Modules (Unit 4)
 
-* 4.1 [Complete CI/CD Mastery](./Complete-CI-CD-Mastery.pdf)
-* 4.2 [CI/CD Pipeline Implementation](./ci-cd-pipeline.pdf)
+**4.1** [Complete CI/CD Mastery](./Complete-CI-CD-Mastery.pdf)
+**4.2** [CI/CD Pipeline Implementation](./ci-cd-pipeline.pdf)
 
 ---
 
@@ -319,7 +319,7 @@ This unit focuses on:
 
 ### Repository Learning Modules (Unit 5)
 
-* 5.1 [Complete Jenkins Mastery (CI/CD)](./Complete%20Jenkins%20Mastery%28CI-CD%29.pdf)
+**5.1** [Complete Jenkins Mastery (CI/CD)](./Complete%20Jenkins%20Mastery%28CI-CD%29.pdf)
 
 ---
 
