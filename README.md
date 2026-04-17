@@ -141,7 +141,7 @@ Apache Maven plays a key role in:
 
 ### Repository Learning Modules (Unit 3)
 
-### 3.1 [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
+**3.1** [Complete Maven Mastery](./Complete%20Maven%20Mastery.pdf)
 
 ---
 
