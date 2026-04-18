@@ -41,6 +41,8 @@ Every topic is studied, executed, analyzed, and recorded with intent.
 
 **1.7** [Mistakes Done and Learnings Made](./Mistakes%20done%20and%20learnings%20made.pdf)
 
+**1.8** [Complete Practice of Docker with many scenarios (Part 1)](Complete%20Practice%20of%20Docker%20with%20many%20scenarios%20part1.pdf)
+
 ---
 
 ### Core Technical Domains Covered
