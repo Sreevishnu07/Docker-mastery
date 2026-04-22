@@ -481,6 +481,17 @@ Jenkins acts as the bridge between:
 - Manual processes → Fully automated DevOps pipelines
 
 ---
+## Special Practicals(Final Armageddon preparation)
+
+### Microservices Docker CI/CD
+
+A hands-on implementation of a containerized microservices system using Docker Compose, consisting of NGINX (frontend), Node.js (backend), and MySQL (database). 
+
+Includes a complete CI/CD pipeline using GitHub Actions with:
+- MySQL integration testing (service readiness + API validation)
+- Automated Docker image build and push to Docker Hub
+
+Focus: service communication, reverse proxy, container networking, and real CI/CD workflow.
 
 ## Final Armageddon Deployment
 
