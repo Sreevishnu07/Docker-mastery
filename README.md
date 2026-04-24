@@ -485,7 +485,7 @@ Jenkins acts as the bridge between:
 
 ### Microservices Docker CI/CD
 
-- [Design and Implementation of Docker Microservices with CI](./Design%20and%20Implementation%20of%20Docker%20Microservices%20with%20CI-CD.pdf)
+- [Design and Implementation of Docker Microservices with CI-CD](./Design%20and%20Implementation%20of%20Docker%20Microservices%20with%20CI-CD.pdf)
 
 A hands-on implementation of a containerized microservices system using Docker Compose, consisting of NGINX (frontend), Node.js (backend), and MySQL (database). 
 
