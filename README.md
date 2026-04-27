@@ -495,6 +495,16 @@ Includes a complete CI/CD pipeline using GitHub Actions with:
 
 Focus: service communication, reverse proxy, container networking, and real CI/CD workflow.
 
+### Microservices Docker CI/CD
+
+- [Design and Implementation of Docker Microservices with CI/CD](#)
+
+A hands-on implementation of a containerized microservices system using **Docker Compose**, consisting of **NGINX (frontend), Node.js (backend), and MongoDB (database)**.
+
+Includes a complete **CI/CD pipeline using GitHub Actions** with automated service-level and integration testing, along with Docker image build and push.
+
+Focus: reverse proxy routing, container networking, environment-based configuration, and real-world CI/CD workflow.
+
 ## Final Armageddon Deployment
 
 A full production-style integration combining:
