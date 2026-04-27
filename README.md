@@ -497,7 +497,7 @@ Focus: service communication, reverse proxy, container networking, and real CI/C
 
 ### Microservices Docker CI/CD
 
-- [Design and Implementation of Docker Microservices with CI/CD](#)
+- [Design and Implementation of Docker Microservices with CI/CD](./End_to_End_Docker_Nginx_Node_Mongo_CI_CD.pdf)
 
 A hands-on implementation of a containerized microservices system using **Docker Compose**, consisting of **NGINX (frontend), Node.js (backend), and MongoDB (database)**.
 
