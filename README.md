@@ -483,7 +483,7 @@ Jenkins acts as the bridge between:
 ---
 ## UNIT-6 Special Practicals(Final Armageddon preparation)
 
-### Microservices Docker CI/CD
+### Microservices Docker CI/CD-1
 
 - [Design and Implementation of Docker Microservices with CI-CD](./Design%20and%20Implementation%20of%20Docker%20Microservices%20with%20CI-CD.pdf)
 
@@ -495,7 +495,7 @@ Includes a complete CI/CD pipeline using GitHub Actions with:
 
 Focus: service communication, reverse proxy, container networking, and real CI/CD workflow.
 
-### Microservices Docker CI/CD
+### Microservices Docker CI/CD-2
 
 - [Design and Implementation of Docker Microservices with CI/CD](./End_to_End_Docker_Nginx_Node_Mongo_CI_CD.pdf)
 
